@@ -1,0 +1,86 @@
+/* Edits main fonts */
+body{
+    font-family: 'Montserrat', 'sans serif'!important;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Roboto Slab", "serif";
+}
+
+.navbar-brand{
+    font-family: "Rock Salt";
+    font-weight: bold;    
+}
+
+.question{
+    font-weight: bold;
+}
+
+/* Edits navbar elements */
+
+.bg-light{
+    background-color: #4E2A84!important
+}
+
+.navbar-brand{
+    color: white!important;
+
+}
+
+.nav-link{
+    color: white!important;
+}
+
+.dropdown-item{
+    color: #4E2A84!important;
+}
+
+.navbar-toggler{
+    filter: invert();
+}
+
+/* Edits jumbotron area */
+
+.jumbotron{
+    background-attachment: fixed;
+    background-image: url(first-improv-classes.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+.btn-primary{
+    background-color: #4E2A84;
+    border-color: #4E2A84;
+    border-radius: 3px;
+}
+
+/* Edits testimonial carousel */
+
+.container-fluid{
+    background-color: #fafafa;
+}
+
+.carousel-item{
+    min-height: 200px;
+}
+
+.testimonial-quote{
+    font-family: 'Noto Sans', 'sans serif';
+    font-style: italic;
+    font-size: 20pt;  
+    max-width: 850px;
+}
+
+.testimonial-author{
+    font-family: 'Noto Sans', 'sans serif';
+    font-size: 12pt;    
+    max-width: 850px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    filter: invert();
+}
